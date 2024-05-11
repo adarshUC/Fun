@@ -2,9 +2,9 @@
   <b>
          DISCLAIMER!  READ THE FOLLOWING BEFORE DOWNLOADING</b>
 
-    First of all tbis program is just made for FUN purpose only!!
-    This Program can help you to take a OP revenge or to flirt a girl so Do it on your own RISK! xD
-    This program uses pyautogui so your cursor should be ready after runing it.
+    First of all this program is just made for FUN purpose only!!
+    It can help you to take a OP revenge or to flirt a girl so Do it on your own RISK! xD
+    It uses pyautogui so your cursor should be ready after runing it.
     Meanwhile your cursor should be in text field where the program will start sending messages.
 </h1>
 
