@@ -17,8 +17,9 @@ def main():
     remember!!!!! this program uses pyautogui so your cursor should be ready after runing it
     Meanwhile your cursor should be in text field where the program will start sending messages'''
     
-    print('''                    DISCLAIMER!  READ THE FOLLOWING BEFORE RUNNING                         
-    This Program helps you to abuse a guy for a revenge so Do it on your own RISK! xD
+    print('''                    DISCLAIMER!  READ THE FOLLOWING BEFORE RUNNING
+			Don't cause harm to someone through this program it's for fun and revenge purpose only               
+    This Program helps you to abuse a guy so Do it on your own RISK! xD
     remember!!!!! this program uses pyautogui so your cursor should be ready after runing it
     Meanwhile your cursor should be in text field where the program will start sending messages\n''')
 
@@ -37,10 +38,10 @@ def main():
                 sleep(2) #1.5 second wait after one msg   ### you can adjust it.
 
     except KeyboardInterrupt:
-        print("ok good bye...")    # if ctrl + c is pressed on console 
+        print(f"Thank you for using Aadarsh's Program 🙂♥️/n I hope you had taken a good revenge from Victim {victim}")      # if ctrl + c is pressed on console 
     
     except FailSafeException:
-        print("ok good bye...")    # if you move your mouse cursor to the corner of the screen
+        print(f"Thank you for using Aadarsh's Program 🙂♥️/n I hope you had taken a good revenge from Victim {victim}")    # if you move your mouse cursor to the corner of the screen
         
 
 if __name__ == "__main__":
