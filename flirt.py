@@ -435,6 +435,8 @@ k=["Jaadugar",
 # "Main hoon saath tere",
 # "Main hoon saath tere"]
 
+__author__ = "Aadarsh"
+
 from pyautogui import (sleep, write, press, FailSafeException)
 import keyboard
 
