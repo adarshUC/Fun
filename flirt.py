@@ -1,4 +1,4 @@
-# k = [
+# k = [ 
 #     "Tere naalo challiye haseen koyi NA ????",
 #     "Taare chann ambar zameen koyi nA",
 #     "Main Jado Tere Mode Utte Sir Rakheya????",
