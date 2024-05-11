@@ -10,7 +10,7 @@
 ## • STEPS TO RUN THE PROGRAM
 
 1.  Download this repository 
-      - [Click Here](https://github.com/adgarshUC/Flirt-or-Fight/archive/refs/heads/main.zip)
+      - [Click Here](https://github.com/adarshUC/Flirt-or-Fight/archive/refs/heads/main.zip)
 2. Extract the repo file
 3. Open fight.py or flirt.py by your choice in any IDE
 4. Split your IDE and the messaging app (like Whatsapp, Instagram, Telegram, etc) SIDE BY SIDE
