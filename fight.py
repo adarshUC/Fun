@@ -22,7 +22,7 @@ def main():
     Meanwhile, your cursor should be in the text field where the program will start sending messages\n''')
 
     username = input("For whom you are going to abuse gimme username/name of that human: ")
-    print("\n LONG PRESS 'Esc' BUTTON TO STOP THE PROGRAM or MOVE YOUR MOUSE CURSOR TO ANY CORNER OF THE SCREEN      ")
+    print("\n LONG PRESS 'Esc' or 'End' BUTTON TO STOP THE PROGRAM or MOVE YOUR MOUSE CURSOR TO ANY CORNER OF THE SCREEN      ")
     wait = input("Prompt how much seconds of delay per msg? Default=2 : ")
     if wait == "":
         wait = 2
@@ -34,7 +34,7 @@ def main():
     try:
         for gali in j:
             if (keyboard.is_pressed("esc") or keyboard.is_pressed("end")):
-                print("Esc button pressed! goodbye...")   # exit the loop if you long press 'Esc' key
+                print("Program exited! Goodbye..")   # exit the loop if you long press Esc or End key
                 break
             else:
                 write(f"{username} {gali}")
