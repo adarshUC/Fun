@@ -441,24 +441,20 @@ from pyautogui import (sleep, write, press, FailSafeException)
 import keyboard
 
 def main():
-    '''                    DISCLAIMER!  READ THE FOLLOWING BEFORE RUNNING                         
-    This Program helps you to flirt a girl so Do it on your own RISK! xD
-    remember!!!!! this program uses pyautogui so your cursor should be ready after runing it
-    Meanwhile your cursor should be in text field where the program will start sending messages'''
     
     print('''                    DISCLAIMER!  READ THE FOLLOWING BEFORE RUNNING                         
-    This Program helps you to flirt a girl so Do it on your own RISK! xD
-    remember!!!!! this program uses pyautogui so your cursor should be ready after runing it
-    Meanwhile your cursor should be in text field where the program will start sending messages\n''')
+    This Program helps you to flirt with a girl so Do it on your own RISK! xD
+    remember!!!!! this program uses pyautogui so your cursor should be ready after running it
+    Meanwhile, your cursor should be in the text field where the program will start sending messages\n''')
 
     username = input("For whom you are going to flirt gimme username/name of that human:\n>>> ")
-    print("\n LONG PRESS 'ESC' BUTTON TO STOP THE PROGRAM or MOVE YOUR MOUSE CURSOR TO ANY CORNER OF THE SCREEN      ")
+    print("\n LONG PRESS 'Esc' or 'End' BUTTON TO STOP THE PROGRAM or MOVE YOUR MOUSE CURSOR TO ANY CORNER OF THE SCREEN      ")
     sleep(5)
 
     try:
         for flirt_MSG in k:
             if keyboard.is_pressed("esc"):
-                print("esc button pressed! good bye...")   # exit the loop
+                print("button pressed! goodbye...")   # exit the loop
                 break
             else:
                 write(f"{username} {flirt_MSG}")
@@ -466,10 +462,10 @@ def main():
                 sleep(2) #1.5 second wait after one msg   ### you can adjust it.
 
     except KeyboardInterrupt:
-        print("ok good bye...")    # if ctrl + c is pressed on console 
+        print("ok goodbye...")    # if ctrl + c is pressed on console 
     
     except FailSafeException:
-        print("ok good bye...")    # if you move your mouse cursor to the corner of the screen
+        print("ok goodbye...")    # if you move your mouse cursor to the corner of the screen
 
 
 if __name__ == "__main__":
