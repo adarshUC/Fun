@@ -454,7 +454,7 @@ def main():
     try:
         for flirt_MSG in k:
             if keyboard.is_pressed("esc"):
-                print("button pressed! goodbye...")   # exit the loop
+                print("Program exited! Goodbye..")   # exit the loop if you long press Esc or End key
                 break
             else:
                 write(f"{username} {flirt_MSG}")
@@ -462,7 +462,7 @@ def main():
                 sleep(2) #1.5 second wait after one msg   ### you can adjust it.
 
     except KeyboardInterrupt:
-        print("ok goodbye...")    # if ctrl + c is pressed on console 
+        print("ok goodbye...")    # if ctrl + c is pressed on terminal 
     
     except FailSafeException:
         print("ok goodbye...")    # if you move your mouse cursor to the corner of the screen
